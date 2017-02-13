@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+  </head>
+  <body>
+    <h1>Show the <em><%= animal.name %></em> Document</h1>
+
+    <p><strong>Name:</strong> <%= animal.name %></p>
+
+    <a href="/mongooses/<%= animal._id %>/edit">Update animal name</a></br>
+    <a href="/mongooses/<%= animal._id %>/destroy">Delete animal</a>
+
+    <p><a href="/">Go Home</a></p>
+
+  </body>
+</html>
